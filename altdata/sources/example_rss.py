@@ -15,7 +15,7 @@ if TYPE_CHECKING:
 
 logger = structlog.get_logger(__name__)
 
-_FEED_URL = "https://finance.yahoo.com/news/rssindex"
+_FEED_URL = "https://feeds.bbci.co.uk/news/business/rss.xml"
 
 # RSS namespace map
 _NS = {
